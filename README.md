@@ -18,7 +18,7 @@ Three virtual machines will simulate a small corporate Windows domain environmen
 The virtual machines will communicate through a VMware virtual network, with IP addressing and DNS configured specifically for the lab.
 
 
-**Architecture diagram:** ![Helix Industries Lab Architecture](architecture/helix-architecture.png)
+![Helix Industries Lab Architecture](architecture/helix-architecture.png)
 
 ## Planned Virtual Machines
 
@@ -27,10 +27,17 @@ The virtual machines will communicate through a VMware virtual network, with IP 
 
 
 
-
 **Active Directory Domain:** `corp.helix.test`
 
 **NetBIOS Domain:** `HELIX`
+
+
+## IP Addressing
+The lab uses VMware Workstation Pro NAT networking (VMnet8), with a dedicated virtual subnet (192.168.164.0/24).
+
+The Domain Controller (HLX-DC01) is planned to use a static IP address, while both Windows 11 clients will obtain their IP addresses through DHCP and use the Domain Controller for DNS resolution.
+
+- [IP Addressing Plan](docs/ip-addressing.png)
 
 ## Project Objectives
 
@@ -43,11 +50,6 @@ The virtual machines will communicate through a VMware virtual network, with IP 
 - Implement SMB file sharing and mapped network drives
 - Document configuration, verification and troubleshooting
 
-## Documentation
-
-- [IP Addressing Plan](docs/ip-addressing.md)
-
-Additional documentation and implementation evidence will be added throughout the project.
 
 ## Project Status
 
@@ -55,7 +57,7 @@ Additional documentation and implementation evidence will be added throughout th
 
 - [x] VMware Workstation available on the Lenovo laptop
 - [x] Active Directory domain and VM naming planned
-- []  Configure VMware virtual networking
+- [x]  Configure VMware virtual networking
 - []  Validate IP addressing and connectivity
 - []  Create Windows Server 2025 virtual machine
 - []  Create 2 Windows 11 virtual machines
