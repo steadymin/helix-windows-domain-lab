@@ -18,7 +18,7 @@ Three virtual machines will simulate a small corporate Windows domain environmen
 The virtual machines will communicate through a VMware virtual network, with IP addressing and DNS configured specifically for the lab.
 
 
-**Architecture diagram:** To be added after finalizing the network topology.
+**Architecture diagram:** ![Helix Industries Lab Architecture](architecture/helix-architecture.png)
 
 ## Planned Virtual Machines
 
