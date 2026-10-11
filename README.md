@@ -1,7 +1,7 @@
 # HELIX INDUSTRIES
 ### Windows Domain Administration Lab
 
-A hands-on Windows Server and Active Directory administration lab, built on a Dell OptiPlex 7050 running Proxmox VE.
+A hands-on Windows Server and Active Directory administration lab built using VMware Workstation Pro on a Windows 11 laptop.
 
 ## Overview
 
@@ -11,11 +11,12 @@ The focus is on understanding configuration decisions, implementing services, ve
 
 ## Architecture
 
-The lab uses a physical Dell OptiPlex 7050 running Proxmox VE as its virtualization host.
+The lab runs entirely on a Lenovo laptop using Windows 11 as the host operating system and VMware Workstation as a hosted (Type 2) hypervisor.
 
-The host connects to the home network through an Ethernet switch and a small router operating in Client Mode, providing a wireless uplink to the main router.
+Three virtual machines will simulate a small corporate Windows domain environment, including one Domain Controller and two domain-joined Windows workstations.
 
-A Windows 11 laptop is used as the administration workstation.
+The virtual machines will communicate through a VMware virtual network, with IP addressing and DNS configured specifically for the lab.
+
 
 **Architecture diagram:** To be added after finalizing the network topology.
 
@@ -50,16 +51,16 @@ Additional documentation and implementation evidence will be added throughout th
 
 ## Project Status
 
-**In Progress — Network Discovery & Infrastructure Planning**
+**In Progress — VMware Infrastructure Planning**
 
-- [x] Proxmox VE installed on physical Dell host
-- [x] Proxmox static management IP verified
-- [x] Physical network topology identified
-- [x] DHCP range identified
-- [] Validate virtual machine network connectivity
-- [ ] Deploy Windows Server and Windows clients
-- [ ] Configure Active Directory and DNS
-- [ ] Implement and validate Group Policies
+- [x] VMware Workstation available on the Lenovo laptop
+- [x] Active Directory domain and VM naming planned
+- []  Configure VMware virtual networking
+- []  Validate IP addressing and connectivity
+- []  Create Windows Server 2025 virtual machine
+- []  Create 2 Windows 11 virtual machines
+- []  Configure Active Directory and DNS
+- []  Implement and validate Group Policies
 
 ## Security and Privacy
 
