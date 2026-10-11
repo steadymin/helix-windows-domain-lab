@@ -37,7 +37,7 @@ The lab uses VMware Workstation Pro NAT networking (VMnet8), with a dedicated vi
 
 The Domain Controller (HLX-DC01) is planned to use a static IP address, while both Windows 11 clients will obtain their IP addresses through DHCP and use the Domain Controller for DNS resolution.
 
-- [IP Addressing Plan](docs/ip-addressing.png)
+![Image description](docs/ip-addressing.png)
 
 ## Project Objectives
 
