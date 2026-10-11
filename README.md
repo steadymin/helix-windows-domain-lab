@@ -21,12 +21,11 @@ A Windows 11 laptop is used as the administration workstation.
 
 ## Planned Virtual Machines
 
+![Image description](screenshots/planned-vms.png)
 
-| Hostname | Operating System |      Role                  |
 
-| HLX-DC01 | Windows Server   | Active Directory, DNS, SMB |
-| HLX-CL01 | Windows 11       | Domain-joined workstation  |
-| HLX-CL02 | Windows 11       | Domain-joined workstation  |
+
+
 
 **Active Directory Domain:** `corp.helix.test`
 
