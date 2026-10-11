@@ -53,15 +53,15 @@ The Domain Controller (HLX-DC01) is planned to use a static IP address, while bo
 
 ## Project Status
 
-**In Progress — VMware Infrastructure Planning**
+**In Progress — Active Directory Deployment**
 
 - [x] VMware Workstation available on the Lenovo laptop
 - [x] Active Directory domain and VM naming planned
-- [x]  Configure VMware virtual networking
-- []  Validate IP addressing and connectivity
-- []  Create Windows Server 2025 virtual machine
-- []  Create 2 Windows 11 virtual machines
-- []  Configure Active Directory and DNS
+- [x] Configure VMware virtual networking
+- [x] Validate IP addressing and connectivity
+- [x] Create Windows Server 2025 virtual machine
+- [x] Create 2 Windows 11 virtual machines
+- [x] Configure Active Directory and DNS
 - []  Implement and validate Group Policies
 
 ## Security and Privacy
