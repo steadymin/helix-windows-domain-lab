@@ -52,23 +52,48 @@ The Domain Controller (HLX-DC01) is planned to use a static IP address, while bo
 
 ## Project Status
 
-**In Progress — Windows Client Domain Integration**
-- [x] VMware Workstation available on the Lenovo laptop
-- [x] Active Directory domain and VM naming planned
-- [x] Configure VMware virtual networking
-- [x] Validate server IP addressing and client-to-DC connectivity
-- [x] Create Windows Server 2025 virtual machine
-- [x] Create 2 Windows 11 virtual machines
-- [x] Install Windows 11 on both clients
-- [x] Configure Active Directory and DNS
-- [x] Create departmental Organizational Units (IT, Engineering, Sales, Finance)
-- [x] Join HLX-CL01 to corp.helix.test
-- [x] Join HLX-CL02 to corp.helix.test
-- [x] Create Active Directory users and security groups
-- [ ] Implement and validate Group Policies
-- [ ] Configure SMB file sharing and mapped drives
-- [ ] Configure and validate Windows DHCP Server
-- [ ] Complete troubleshooting and final documentation
+**In Progress — Group Policy Implementation**
+
+### Infrastructure & Networking
+- [x] Set up VMware Workstation Pro
+- [x] Configure VMware NAT networking (VMnet8)
+- [x] Deploy Windows Server 2025 (HLX-DC01)
+- [x] Deploy two Windows 11 Pro clients
+- [x] Configure static IP addressing and DNS
+- [x] Join both Windows 11 clients to corp.helix.test
+
+### Active Directory
+- [x] Install and configure AD DS and DNS
+- [x] Create Active Directory forest and domain
+- [x] Create departmental Organizational Units
+- [x] Create domain users and Global Security Groups
+- [x] Validate domain user authentication
+
+### Group Policy
+- [x] Deploy and validate Engineering wallpaper GPO
+- [x] Configure USB storage restrictions for non-IT departments
+- [x] Validate USB restrictions on HLX-CL01
+- [x] Validate USB restrictions on HLX-CL02
+- [ ] Validate IT workstation exception
+- [ ] Configure Sales mapped drive GPO
+- [ ] Configure Adobe Acrobat AI restriction GPO
+
+### File Services
+- [ ] Configure SMB file sharing
+- [ ] Configure NTFS and share permissions
+- [ ] Validate mapped drives and access permissions
+
+### DHCP Server
+- [ ] Install and authorize Windows DHCP Server
+- [ ] Configure DHCP scope and options
+- [ ] Validate DHCP leases on Windows 11 clients
+
+### Final Validation & Documentation
+- [ ] Complete Group Policy testing
+- [ ] Document troubleshooting scenarios
+- [ ] Finalize GitHub documentation and evidence
+
+
 
 ## Security and Privacy
 
