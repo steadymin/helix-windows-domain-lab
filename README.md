@@ -64,7 +64,7 @@ The Domain Controller (HLX-DC01) is planned to use a static IP address, while bo
 - [x] Create departmental Organizational Units (IT, Engineering, Sales, Finance)
 - [x] Join HLX-CL01 to corp.helix.test
 - [x] Join HLX-CL02 to corp.helix.test
-- [ ] Create Active Directory users and security groups
+- [x] Create Active Directory users and security groups
 - [ ] Implement and validate Group Policies
 - [ ] Configure SMB file sharing and mapped drives
 - [ ] Configure and validate Windows DHCP Server
