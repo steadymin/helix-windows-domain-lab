@@ -50,19 +50,25 @@ The Domain Controller (HLX-DC01) is planned to use a static IP address, while bo
 - Implement SMB file sharing and mapped network drives
 - Document configuration, verification and troubleshooting
 
-
 ## Project Status
 
-**In Progress — Active Directory Deployment**
-
+**In Progress — Windows Client Domain Integration**
 - [x] VMware Workstation available on the Lenovo laptop
 - [x] Active Directory domain and VM naming planned
 - [x] Configure VMware virtual networking
-- [x] Validate IP addressing and connectivity
+- [x] Validate server IP addressing and client-to-DC connectivity
 - [x] Create Windows Server 2025 virtual machine
 - [x] Create 2 Windows 11 virtual machines
+- [x] Install Windows 11 on both clients
 - [x] Configure Active Directory and DNS
-- []  Implement and validate Group Policies
+- [x] Create departmental Organizational Units (IT, Engineering, Sales, Finance)
+- [x] Join HLX-CL01 to corp.helix.test
+- [x] Join HLX-CL02 to corp.helix.test
+- [ ] Create Active Directory users and security groups
+- [ ] Implement and validate Group Policies
+- [ ] Configure SMB file sharing and mapped drives
+- [ ] Configure and validate Windows DHCP Server
+- [ ] Complete troubleshooting and final documentation
 
 ## Security and Privacy
 
