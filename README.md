@@ -1,7 +1,7 @@
 # HELIX INDUSTRIES
 ### Windows Server & Active Directory Administration Lab
 
-A hands-on Windows Server and Active Directory administration lab built using VMware Workstation Pr>
+A hands-on Windows Server and Active Directory administration lab built using VMware Workstation Pro, simulating a small enterprise IT environment.
 
 
 ## Overview
