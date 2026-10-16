@@ -1,14 +1,14 @@
 # HELIX INDUSTRIES
-### Windows Domain Administration Lab
+### Windows Server & Active Directory Administration Lab
 
-A hands-on Windows Server and Active Directory administration lab built using VMware Workstation Pro on a Windows 11 laptop.
+A hands-on Windows Server and Active Directory administration lab built using VMware Workstation Pr>
+
 
 ## Overview
 
-This project simulates a small enterprise Windows domain environment to develop practical skills in Windows Server administration, Active Directory Domain Services, DNS, Group Policy, network configuration, user management and SMB file sharing.
+This project demonstrates practical skills in Windows Server administration, Active Directory Domain Services (AD DS), DNS, Group Policy, domain authentication, SMB file sharing, and NTFS permissions.
 
-The focus is on understanding configuration decisions, implementing services, verifying functionality and documenting troubleshooting procedures.
-
+The focus is on understanding technical decisions, deploying and configuring services, validating functionality, troubleshooting issues, and documenting the implementation process.
 ## Architecture
 
 The lab runs entirely on a Lenovo laptop using Windows 11 as the host operating system and VMware Workstation as a hosted (Type 2) hypervisor.
