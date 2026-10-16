@@ -99,7 +99,7 @@ The Domain Controller (HLX-DC01) uses a static IP address, while both Windows 11
 - [x] Document Active Directory and domain integration
 - [x] Document implemented Group Policies
 - [x] Document SMB access and mapped drive functionality
-- [ ] Complete final GitHub documentation review
+- [x] Complete final GitHub documentation review
 
 ### Future Enhancements — Phase 2
 - [ ] Install and authorize Windows DHCP Server
