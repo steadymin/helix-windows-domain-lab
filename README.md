@@ -13,14 +13,23 @@ The focus is on understanding configuration decisions, implementing services, ve
 
 The lab runs entirely on a Lenovo laptop using Windows 11 as the host operating system and VMware Workstation as a hosted (Type 2) hypervisor.
 
-Three virtual machines will simulate a small corporate Windows domain environment, including one Domain Controller and two domain-joined Windows workstations.
+Three virtual machines simulate a small corporate Windows domain environment, including one Domain Controller and two domain-joined Windows workstations.
 
-The virtual machines will communicate through a VMware virtual network, with IP addressing and DNS configured specifically for the lab.
+The virtual machines communicate through a VMware virtual network, with IP addressing and DNS configured specifically for the lab.
 
 
 ![Helix Industries Lab Architecture](architecture/helix-architecture.png)
 
-## Planned Virtual Machines
+### VMware Infrastructure Overview
+
+The lab was deployed using VMware Workstation Pro and consists of three virtual machines: HLX-DC01 running Windows Server 2025, and HLX-CL01 and HLX-CL02 running Windows 11 Pro.
+
+Both Windows 11 clients have been successfully joined to the `corp.helix.test` Active Directory domain.
+
+![HELIX INDUSTRIES VMware Infrastructure](screenshots/helix-vmware-overview.png)
+
+
+## Virtual Machine Inventory
 
 ![Image description](screenshots/planned-vms.png)
 
@@ -35,7 +44,7 @@ The virtual machines will communicate through a VMware virtual network, with IP 
 ## IP Addressing
 The lab uses VMware Workstation Pro NAT networking (VMnet8), with a dedicated virtual subnet (192.168.164.0/24).
 
-The Domain Controller (HLX-DC01) is planned to use a static IP address, while both Windows 11 clients will obtain their IP addresses through DHCP and use the Domain Controller for DNS resolution.
+The Domain Controller (HLX-DC01) uses a static IP address, while both Windows 11 clients obtain their IP addresses through DHCP and use the Domain Controller for DNS resolution.
 
 ![Image description](docs/ip-addressing.png)
 
