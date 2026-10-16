@@ -50,9 +50,10 @@ The Domain Controller (HLX-DC01) is planned to use a static IP address, while bo
 - Implement SMB file sharing and mapped network drives
 - Document configuration, verification and troubleshooting
 
+
 ## Project Status
 
-**In Progress — Group Policy Implementation**
+**Phase 1 — Core Implementation Completed**
 
 ### Infrastructure & Networking
 - [x] Set up VMware Workstation Pro
@@ -72,28 +73,34 @@ The Domain Controller (HLX-DC01) is planned to use a static IP address, while bo
 ### Group Policy
 - [x] Deploy and validate Engineering wallpaper GPO
 - [x] Configure USB storage restrictions for non-IT departments
-- [x] Validate USB restrictions on HLX-CL01
-- [x] Validate USB restrictions on HLX-CL02
-- [ ] Validate IT workstation exception
-- [ ] Configure Sales mapped drive GPO
-- [ ] Configure Adobe Acrobat AI restriction GPO
+- [x] Validate USB restrictions on HLX-CL01 (Engineering)
+- [x] Validate USB restrictions on HLX-CL02 (Finance)
+- [x] Configure and validate Sales mapped drive GPO
+- [ ] Test IT Exception
+- [ ] Validate USB restrictions on a Sales workstation
 
 ### File Services
-- [ ] Configure SMB file sharing
-- [ ] Configure NTFS and share permissions
-- [ ] Validate mapped drives and access permissions
+- [x] Configure SMB file sharing (SalesReports)
+- [x] Configure NTFS and share permissions using AGDLP
+- [x] Validate authorized Sales user access
+- [x] Validate access denied for unauthorized users
+- [x] Validate automatic network drive mapping (S:)
 
-### DHCP Server
+### Final Validation & Documentation
+- [x] Document Active Directory and domain integration
+- [x] Document implemented Group Policies
+- [x] Document SMB access and mapped drive functionality
+- [ ] Complete final GitHub documentation review
+
+### Future Enhancements — Phase 2
 - [ ] Install and authorize Windows DHCP Server
 - [ ] Configure DHCP scope and options
 - [ ] Validate DHCP leases on Windows 11 clients
+- [ ] Configure Adobe Acrobat AI restriction GPO
+- [ ] Implement backup and recovery procedures
+- [ ] Document additional troubleshooting scenarios
 
-### Final Validation & Documentation
-- [ ] Complete Group Policy testing
-- [ ] Document troubleshooting scenarios
-- [ ] Finalize GitHub documentation and evidence
-
-
+**Note:** The core implementation is complete. USB restrictions have been tested on Engineering and Finance workstations. Testing the IT workstation exception and Sales workstation restriction remains future validation work.
 
 ## Security and Privacy
 
